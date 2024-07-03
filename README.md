@@ -15,6 +15,13 @@
 ```bash
 npm install
 
+### Запуск тестов
+```bash
+npx playwright test
+
+
+
+
 ### Ссылки
 - [Репозиторий на GitHub](https://github.com/Andreeva12/github-issues-tests)
 - [GitHub Issues API](https://docs.github.com/en/rest/issues/issues)
