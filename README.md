@@ -2,6 +2,7 @@
 
 ![Playwright](https://img.shields.io/badge/Playwright-EA2845?logo=playwright&logoColor=white)
 ![Allure](https://img.shields.io/badge/Allure-Report-orange)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue)
 
 
 ---
@@ -98,12 +99,18 @@ github-issues-tests/
 - `pull_request`
 
 ## ⚙️ CI Steps
-- Checkout repository
-- Checkout repository
-- Install Node.js dependencies
-- Install Playwright browsers
-- Execute Playwright test suite
-- Collect Allure results as CI artifacts
+
+```
+┌─────────────────────────────┐
+│        CI Pipeline          │
+├─────────────────────────────┤
+│ Checkout repository         │
+│ Install Node.js dependencies│
+│ Install Playwright browsers │
+│ Run Playwright test suite   │
+│ Collect Allure results      │
+└─────────────────────────────┘
+```
 
 ### ✅ CI Value
 - Early regression detection
